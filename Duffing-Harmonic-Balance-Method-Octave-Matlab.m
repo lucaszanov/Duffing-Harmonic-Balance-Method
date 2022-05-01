@@ -8,16 +8,16 @@ w_hb = wi:dw:wf % Frequency array [rad/s]
 w_hz_hb = w_hb/(2*pi) % Frequency array [rad/s]
 
 % Mass
-m = 1; # [kg]
+m = 1; % [kg]
 
 % Linear stiffness
-k = 25; # [N/m]
+k = 25; % [N/m]
 
 % Nonlinear stiffness
-knl = 25; # [N/m^3]
+knl = 25; % [N/m^3]
 
 % Damping
-c = 0.2; # [N.s/m]
+c = 0.2; % [N.s/m]
 
 % Excitation amplitude
 Y_low = 0.1; % [N]
